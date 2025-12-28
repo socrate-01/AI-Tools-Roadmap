@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+AI Tools Roadmap
 
-## Getting Started
+AI Tools Roadmap is an open-source platform built with Next.js that helps users discover the best AI tools for every category like coding tools, mobile apps, design, project management, marketing, productivity, and more.
 
-First, run the development server:
+The goal is simple:
 
-```bash
+Provide a clean, accessible, community-driven directory where anyone can explore AI tools by category, pricing (Free / Freemium / Premium), overview, and useful resources.
+
+⸻
+
+Features
+	•	Browse AI tools by category
+	•	View pricing tiers: Free, Freemium, Premium
+	•	Each tool includes: overview, pricing, links, resources
+	•	100% open-source — everyone can contribute
+
+⸻
+
+Tech Stack
+	•	Next.js 14+ (App Router)
+	•	TailwindCSS
+	•	TypeScript
+	•	Shadcn/UI
+
+⸻
+
+Run Locally
+
+Clone the repo:
+
+git clone https://github.com/socrate-01/AI-Tools-Roadmap.git
+
+Install dependencies:
+
+npm install
+
+Start development:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Build:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+npm run build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Start production:
 
-## Learn More
+npm start
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+⸻
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Contributing
 
-## Deploy on Vercel
+This project is open to everyone.
+You can contribute by adding new AI tools, improving descriptions, fixing pricing, suggesting functionalities or suggesting new categories.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Steps to contribute:
+	1.	Fork the repository
+	2.	Create a new branch
+	3.	Make your changes
+	4.	Open a Pull Request
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+⸻
+
+License
+
+This project is released under the MIT License — free to use, modify, and distribute.
+
+
