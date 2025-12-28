@@ -1,0 +1,1058 @@
+{
+    "lastUpdated": "2025-01-15",
+    "version": "2.0",
+    "categories": [
+        {
+            "id": "development",
+            "name": "Code (General Coding Assistants)",
+            "icon": "code",
+            "description": "AI tools that assist with writing, debugging, and explaining code within IDEs.",
+            "color": "#F59E0B",
+            "toolCount": 10,
+            "tools": [
+                {
+                    "id": "github-copilot",
+                    "name": "GitHub Copilot",
+                    "logo": "/img/githubcopilot.svg",
+                    "logoFallback": "GC",
+                    "pricing": "paid",
+                    "officialWebsite": "https://github.com/features/copilot",
+                    "shortDescription": "The industry standard AI pair programmer powered by OpenAI Codex.",
+                    "fullDescription": "The industry standard AI pair programmer. Powered by OpenAI Codex, it suggests whole lines or functions right inside your editor.",
+                    "bestFor": "Code completion and suggestions",
+                    "categoryId": "development",
+                    "paidPlans": [
+                        {
+                            "name": "Individual",
+                            "priceUSD": 10,
+                            "billing": "monthly",
+                            "features": [
+                                "Copilot in IDE",
+                                "Chat support"
+                            ]
+                        },
+                        {
+                            "name": "Business",
+                            "priceUSD": 19,
+                            "billing": "monthly",
+                            "features": [
+                                "Organization usage management",
+                                "IP Indemnity"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "cursor",
+                    "name": "Cursor",
+                    "logo": "/img/cursor.svg",
+                    "logoFallback": "CU",
+                    "pricing": "freemium",
+                    "officialWebsite": "https://cursor.com",
+                    "shortDescription": "A fork of VS Code with AI baked into the core.",
+                    "fullDescription": "A fork of VS Code with AI baked into the core. It understands your entire codebase context better than plugins.",
+                    "bestFor": "Integrated AI coding workflows",
+                    "categoryId": "development",
+                    "paidPlans": [
+                        {
+                            "name": "Pro",
+                            "priceUSD": 20,
+                            "billing": "monthly",
+                            "features": [
+                                "GPT-4 Access",
+                                "Fast requests"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "codeium",
+                    "name": "Codeium",
+                    "logo": "/img/Codeium.svg",
+                    "logoFallback": "CM",
+                    "pricing": "freemium",
+                    "officialWebsite": "https://codeium.com",
+                    "shortDescription": "A powerful, ultra-fast alternative to Copilot offering autocomplete and chat.",
+                    "fullDescription": "A powerful, ultra-fast alternative to Copilot offering autocomplete and chat.",
+                    "bestFor": "Fast free autocomplete",
+                    "categoryId": "development",
+                    "paidPlans": [
+                        {
+                            "name": "Teams",
+                            "priceUSD": 12,
+                            "billing": "monthly",
+                            "features": [
+                                "Team management"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "tabnine",
+                    "name": "Tabnine",
+                    "logo": "/img/tabnine.png",
+                    "logoFallback": "TN",
+                    "pricing": "freemium",
+                    "officialWebsite": "https://www.tabnine.com",
+                    "shortDescription": "Focuses on privacy and security; runs models locally or in a private cloud.",
+                    "fullDescription": "Focuses on privacy and security; runs models locally or in a private cloud. Great for enterprise.",
+                    "bestFor": "Enterprise and Privacy",
+                    "categoryId": "development",
+                    "paidPlans": [
+                        {
+                            "name": "Pro",
+                            "priceUSD": 12,
+                            "billing": "monthly",
+                            "features": [
+                                "Advanced completion"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "aws-codewhisperer",
+                    "name": "Amazon Q Developer",
+                    "logo": "/img/AmazonQ.png",
+                    "logoFallback": "AQ",
+                    "pricing": "freemium",
+                    "officialWebsite": "https://aws.amazon.com/q/developer/",
+                    "shortDescription": "AWS-focused coding companion. Excellent for AWS SDKs.",
+                    "fullDescription": "AWS-focused coding companion. Excellent for AWS SDKs and infrastructure code.",
+                    "bestFor": "AWS cloud development",
+                    "categoryId": "development",
+                    "paidPlans": [
+                        {
+                            "name": "Pro",
+                            "priceUSD": 19,
+                            "billing": "monthly",
+                            "features": [
+                                "Enterprise features"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "cody",
+                    "name": "Cody (Sourcegraph)",
+                    "logo": "/img/Cody.svg",
+                    "logoFallback": "CO",
+                    "pricing": "freemium",
+                    "officialWebsite": "https://sourcegraph.com/cody",
+                    "shortDescription": "Uses Sourcegraph’s code graph to understand your entire repository history.",
+                    "fullDescription": "Uses Sourcegraph’s code graph to understand your entire repository history and context.",
+                    "bestFor": "Deep context awareness",
+                    "categoryId": "development",
+                    "paidPlans": [
+                        {
+                            "name": "Pro",
+                            "priceUSD": 9,
+                            "billing": "monthly",
+                            "features": []
+                        }
+                    ]
+                },
+                {
+                    "id": "jetbrains-ai",
+                    "name": "JetBrains AI Assistant",
+                    "logo": "/img/Jetbrains.png",
+                    "logoFallback": "JB",
+                    "pricing": "paid",
+                    "officialWebsite": "https://www.jetbrains.com/ai/",
+                    "shortDescription": "Deeply integrated into IntelliJ, PyCharm, and WebStorm.",
+                    "fullDescription": "Deeply integrated into IntelliJ, PyCharm, and WebStorm. Context-aware for refactoring.",
+                    "bestFor": "JetBrains IDE users",
+                    "categoryId": "development",
+                    "paidPlans": [
+                        {
+                            "name": "Individual",
+                            "priceUSD": 10,
+                            "billing": "monthly",
+                            "features": [
+                                "IDE Integration"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "supermaven",
+                    "name": "Supermaven",
+                    "logo": "/img/Supermaven.webp",
+                    "logoFallback": "SM",
+                    "pricing": "freemium",
+                    "officialWebsite": "https://supermaven.com",
+                    "shortDescription": "Known for its massive 1-million token context window.",
+                    "fullDescription": "Known for its massive 1-million token context window, allowing it to 'read' huge codebases instantly.",
+                    "bestFor": "Massive context codebases",
+                    "categoryId": "development",
+                    "paidPlans": [
+                        {
+                            "name": "Pro",
+                            "priceUSD": 10,
+                            "billing": "monthly",
+                            "features": []
+                        }
+                    ]
+                },
+                {
+                    "id": "gemini-code-assist",
+                    "name": "Gemini Code Assist",
+                    "logo": "/img/Gemini.png",
+                    "logoFallback": "GC",
+                    "pricing": "paid",
+                    "officialWebsite": "https://cloud.google.com/products/gemini/code-assist",
+                    "shortDescription": "Google’s enterprise coding tool, integrated into Google Cloud and IDEs.",
+                    "fullDescription": "Google’s enterprise coding tool, integrated into Google Cloud and IDEs.",
+                    "bestFor": "Google Cloud Platform users",
+                    "categoryId": "development"
+                },
+                {
+                    "id": "blackbox-ai",
+                    "name": "Blackbox AI",
+                    "logo": "/img/Blackbox.png",
+                    "logoFallback": "BB",
+                    "pricing": "freemium",
+                    "officialWebsite": "https://www.blackbox.ai",
+                    "shortDescription": "Specialized in answering coding questions and searching specific repos.",
+                    "fullDescription": "A coding assistant specialized in answering coding questions and searching specific repos.",
+                    "bestFor": "Searching repositories",
+                    "categoryId": "development",
+                    "paidPlans": [
+                        {
+                            "name": "Premium",
+                            "priceUSD": 10,
+                            "billing": "monthly",
+                            "features": []
+                        }
+                    ]
+                }
+            ],
+            "image": "/img/coding.jpg"
+        },
+        {
+            "id": "mobile-development",
+            "name": "Mobile App Development",
+            "icon": "smartphone",
+            "description": "Tools specialized in generating mobile UI, Swift/Kotlin code, or full mobile apps.",
+            "color": "#3B82F6",
+            "toolCount": 3,
+            "tools": [
+                {
+                    "id": "flutterflow",
+                    "name": "FlutterFlow",
+                    "logo": "/img/flutterflow.png",
+                    "logoFallback": "FF",
+                    "pricing": "freemium",
+                    "officialWebsite": "https://flutterflow.io",
+                    "shortDescription": "Low-code builder for Flutter. Uses AI to generate pages/logic.",
+                    "fullDescription": "Low-code builder for Flutter. Uses AI to generate pages, components, and backend schemas from text.",
+                    "bestFor": "Building complex native apps visually",
+                    "categoryId": "mobile-development",
+                    "paidPlans": [
+                        {
+                            "name": "Standard",
+                            "priceUSD": 30,
+                            "billing": "monthly",
+                            "features": [
+                                "APK Download"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "crowdbotics",
+                    "name": "Crowdbotics",
+                    "logo": "/img/Crowdbotics.png",
+                    "logoFallback": "CB",
+                    "pricing": "paid",
+                    "officialWebsite": "https://www.crowdbotics.com",
+                    "shortDescription": "Uses AI to match requirements with reusable code modules.",
+                    "fullDescription": "Uses AI to analyze your requirements and match them with reusable code modules to speed up dev.",
+                    "bestFor": "Enterprise app development",
+                    "categoryId": "mobile-development"
+                },
+                {
+                    "id": "uizard",
+                    "name": "Uizard",
+                    "logo": "/img/Uizard.jpg",
+                    "logoFallback": "UZ",
+                    "pricing": "freemium",
+                    "officialWebsite": "https://uizard.io",
+                    "shortDescription": "Converts hand-drawn sketches or screenshots into designs.",
+                    "fullDescription": "Converts hand-drawn sketches or screenshots into editable mobile design mockups automatically.",
+                    "bestFor": "Rapid prototyping",
+                    "categoryId": "mobile-development",
+                    "paidPlans": [
+                        {
+                            "name": "Pro",
+                            "priceUSD": 12,
+                            "billing": "monthly",
+                            "features": []
+                        }
+                    ]
+                }
+            ],
+            "image": "/img/mobileApp.webp"
+        },
+        {
+            "id": "web-development",
+            "name": "Web Development",
+            "icon": "globe",
+            "description": "AI for building websites, front-end code, and landing pages.",
+            "color": "#10B981",
+            "toolCount": 5,
+            "tools": [
+                {
+                    "id": "v0",
+                    "name": "V0.dev (by Vercel)",
+                    "logo": "/img/Vercel.png",
+                    "logoFallback": "V0",
+                    "pricing": "freemium",
+                    "officialWebsite": "https://v0.dev",
+                    "shortDescription": "Generates React/Tailwind UI components from text.",
+                    "fullDescription": "Generates React/Tailwind UI components from text prompts. Copy-paste ready.",
+                    "bestFor": "React/Tailwind UI generation",
+                    "categoryId": "web-development",
+                    "paidPlans": [
+                        {
+                            "name": "Premium",
+                            "priceUSD": 20,
+                            "billing": "monthly",
+                            "features": []
+                        }
+                    ]
+                },
+                {
+                    "id": "bolt-new",
+                    "name": "Bolt.new",
+                    "logo": "/img/bolt.jpeg",
+                    "logoFallback": "BN",
+                    "pricing": "freemium",
+                    "officialWebsite": "https://bolt.new",
+                    "shortDescription": "AI web dev agent that can build and deploy full-stack apps.",
+                    "fullDescription": "An AI web development agent that can build, run, and deploy full-stack apps in the browser.",
+                    "bestFor": "Full-stack browser dev",
+                    "categoryId": "web-development"
+                },
+                {
+                    "id": "lovable",
+                    "name": "Lovable",
+                    "logo": "/img/Lovable.jpeg",
+                    "logoFallback": "LO",
+                    "pricing": "freemium",
+                    "officialWebsite": "https://lovable.dev",
+                    "shortDescription": "GPT-to-Software tool. Builds full frontend code.",
+                    "fullDescription": "A GPT-to-Software tool. You describe the web app, and it builds the full frontend code.",
+                    "bestFor": "Rapid frontend generation",
+                    "categoryId": "web-development"
+                },
+                {
+                    "id": "framer",
+                    "name": "Framer AI",
+                    "logo": "/img/Framer.png",
+                    "logoFallback": "FR",
+                    "pricing": "freemium",
+                    "officialWebsite": "https://www.framer.com",
+                    "shortDescription": "Generates high-fidelity sites from prompts.",
+                    "fullDescription": "Generates entire high-fidelity website designs and layouts from a single text prompt.",
+                    "bestFor": "Designer portfolios",
+                    "categoryId": "web-development",
+                    "paidPlans": [
+                        {
+                            "name": "Basic",
+                            "priceUSD": 15,
+                            "billing": "monthly",
+                            "features": []
+                        }
+                    ]
+                },
+                {
+                    "id": "webflow",
+                    "name": "Webflow AI",
+                    "logo": "/img/webflow.svg",
+                    "logoFallback": "WF",
+                    "pricing": "paid",
+                    "officialWebsite": "https://webflow.com",
+                    "shortDescription": "Assists in layouts and translations within Webflow.",
+                    "fullDescription": "Assists in generating layouts, translations, and custom code within the Webflow designer.",
+                    "bestFor": "Webflow users",
+                    "categoryId": "web-development",
+                    "paidPlans": [
+                        {
+                            "name": "CMS",
+                            "priceUSD": 23,
+                            "billing": "monthly",
+                            "features": []
+                        }
+                    ]
+                }
+            ],
+            "image": "/img/webApp.jpg"
+        },
+        {
+            "id": "ai-assistants",
+            "name": "AI Assistants (LLMs)",
+            "icon": "bot",
+            "description": "General purpose chatbots for logic, reasoning, and drafting.",
+            "color": "#8B5CF6",
+            "toolCount": 8,
+            "tools": [
+                {
+                    "id": "chatgpt",
+                    "name": "ChatGPT (OpenAI)",
+                    "logo": "/img/chatgpt.svg",
+                    "logoFallback": "GPT",
+                    "pricing": "freemium",
+                    "officialWebsite": "https://chatgpt.com",
+                    "shortDescription": "The market leader (GPT-4o). Excellent for reasoning.",
+                    "fullDescription": "The market leader (GPT-4o). Excellent for reasoning, coding, and creative writing.",
+                    "bestFor": "General reasoning",
+                    "categoryId": "ai-assistants",
+                    "paidPlans": [
+                        {
+                            "name": "Plus",
+                            "priceUSD": 20,
+                            "billing": "monthly",
+                            "features": []
+                        }
+                    ]
+                },
+                {
+                    "id": "gemini",
+                    "name": "Gemini (Google)",
+                    "logo": "/img/Gemini.png",
+                    "logoFallback": "GE",
+                    "pricing": "freemium",
+                    "officialWebsite": "https://gemini.google.com",
+                    "shortDescription": "Deep integration with Google Workspace. Multimodal.",
+                    "fullDescription": "Deep integration with Google Workspace (Docs, Drive). Multimodal (sees video/images).",
+                    "bestFor": "Google ecosystem",
+                    "categoryId": "ai-assistants",
+                    "paidPlans": [
+                        {
+                            "name": "Advanced",
+                            "priceUSD": 20,
+                            "billing": "monthly",
+                            "features": []
+                        }
+                    ]
+                },
+                {
+                    "id": "perplexity",
+                    "name": "Perplexity",
+                    "logo": "/img/perplexity.webp",
+                    "logoFallback": "PX",
+                    "pricing": "freemium",
+                    "officialWebsite": "https://www.perplexity.ai",
+                    "shortDescription": "AI Search Engine. Provides answers with citations.",
+                    "fullDescription": "AI Search Engine. Provides answers with citations from the live web.",
+                    "bestFor": "Research and citations",
+                    "categoryId": "ai-assistants",
+                    "paidPlans": [
+                        {
+                            "name": "Pro",
+                            "priceUSD": 20,
+                            "billing": "monthly",
+                            "features": []
+                        }
+                    ]
+                },
+                {
+                    "id": "grok",
+                    "name": "Grok (xAI)",
+                    "logo": "/img/grok.webp",
+                    "logoFallback": "GR",
+                    "pricing": "paid",
+                    "officialWebsite": "https://x.com",
+                    "shortDescription": "AI with real-time access to X (Twitter) data.",
+                    "fullDescription": "AI with real-time access to X (Twitter) data. Known for 'fun' mode.",
+                    "bestFor": "Real-time news",
+                    "categoryId": "ai-assistants",
+                    "paidPlans": [
+                        {
+                            "name": "Premium+",
+                            "priceUSD": 16,
+                            "billing": "monthly",
+                            "features": []
+                        }
+                    ]
+                },
+                {
+                    "id": "huggingchat",
+                    "name": "HuggingChat",
+                    "logo": "/img/HuggingChat.png",
+                    "logoFallback": "HC",
+                    "pricing": "free",
+                    "officialWebsite": "https://huggingface.co/chat",
+                    "shortDescription": "Open-source alternative accessing top open models.",
+                    "fullDescription": "Open-source alternative accessing top open models (Llama 3, Mistral, etc.).",
+                    "bestFor": "Open source models",
+                    "categoryId": "ai-assistants"
+                },
+                {
+                    "id": "mistral",
+                    "name": "Mistral (Le Chat)",
+                    "logo": "/img/mistral.png",
+                    "logoFallback": "MI",
+                    "pricing": "free",
+                    "officialWebsite": "https://chat.mistral.ai",
+                    "shortDescription": "European open-weight model leader.",
+                    "fullDescription": "European open-weight model leader, highly efficient and unmoderated options for devs.",
+                    "bestFor": "European compliance",
+                    "categoryId": "ai-assistants"
+                },
+                {
+                    "id": "claude",
+                    "name": "Claude (Anthropic)",
+                    "logo": "/img/Claude.png",
+                    "logoFallback": "CL",
+                    "pricing": "freemium",
+                    "officialWebsite": "https://claude.ai",
+                    "shortDescription": "Anthropic's helpful and harmless AI assistant.",
+                    "fullDescription": "Anthropic's helpful and harmless AI assistant. Known for large context windows and safe responses.",
+                    "bestFor": "General Assistance",
+                    "categoryId": "ai-assistants"
+                },
+                {
+                    "id": "microsoft-copilot",
+                    "name": "Microsoft Copilot",
+                    "logo": "/img/microsoftcopilot.svg",
+                    "logoFallback": "MI",
+                    "pricing": "freemium",
+                    "officialWebsite": "https://copilot.microsoft.com",
+                    "shortDescription": "AI companion for the web and Microsoft 365.",
+                    "fullDescription": "AI Assistant: microsoft-copilot",
+                    "bestFor": "General Assistance",
+                    "categoryId": "ai-assistants"
+                }
+            ],
+            "image": "/img/aiAssist.avif"
+        },
+        {
+            "id": "project-management",
+            "name": "Project Management",
+            "icon": "kanban",
+            "description": "AI for tasks, scheduling, and team alignment.",
+            "color": "#EC4899",
+            "toolCount": 4,
+            "tools": [
+                {
+                    "id": "asana",
+                    "name": "Asana Intelligence",
+                    "logo": "/img/asana.jpg",
+                    "logoFallback": "AS",
+                    "pricing": "paid",
+                    "officialWebsite": "https://asana.com",
+                    "shortDescription": "Identifies risks and drafts status updates.",
+                    "fullDescription": "Identifying risks, drafting status updates, and asking questions about project health.",
+                    "bestFor": "Project health tracking",
+                    "categoryId": "project-management",
+                    "paidPlans": [
+                        {
+                            "name": "Starter",
+                            "priceUSD": 11,
+                            "billing": "monthly",
+                            "features": []
+                        }
+                    ]
+                },
+                {
+                    "id": "notion-pm",
+                    "name": "Notion AI",
+                    "logo": "/img/notion.png",
+                    "logoFallback": "NO",
+                    "pricing": "paid",
+                    "officialWebsite": "https://notion.so",
+                    "shortDescription": "Summarizes notes and generates action items.",
+                    "fullDescription": "Integrated into Notion docs. Summarizes notes, generates action items, and improves writing.",
+                    "bestFor": "Docs and Wiki",
+                    "categoryId": "project-management",
+                    "paidPlans": [
+                        {
+                            "name": "Add-on",
+                            "priceUSD": 8,
+                            "billing": "monthly",
+                            "features": []
+                        }
+                    ]
+                },
+                {
+                    "id": "jira",
+                    "name": "Jira (Atlassian Intelligence)",
+                    "logo": "/img/Jira.png",
+                    "logoFallback": "JI",
+                    "pricing": "paid",
+                    "officialWebsite": "https://www.atlassian.com/software/jira",
+                    "shortDescription": "Converts natural language to JQL queries.",
+                    "fullDescription": "Converts natural language to JQL (Jira Query Language) queries and summarizes tickets.",
+                    "bestFor": "Enterprise agile",
+                    "categoryId": "project-management",
+                    "paidPlans": [
+                        {
+                            "name": "Premium",
+                            "priceUSD": 0,
+                            "billing": "monthly",
+                            "features": [
+                                "Included in Premium"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "trello",
+                    "name": "Trello",
+                    "logo": "/img/trello.png",
+                    "logoFallback": "TR",
+                    "pricing": "freemium",
+                    "officialWebsite": "https://trello.com",
+                    "shortDescription": "Generates content for cards.",
+                    "fullDescription": "Generates content for cards and summarizes lists.",
+                    "bestFor": "Visual kanban",
+                    "categoryId": "project-management",
+                    "paidPlans": [
+                        {
+                            "name": "Premium",
+                            "priceUSD": 10,
+                            "billing": "monthly",
+                            "features": []
+                        }
+                    ]
+                }
+            ],
+            "image": "/img/projectManage.avif"
+        },
+        {
+            "id": "design",
+            "name": "Design & UI/UX",
+            "icon": "palette",
+            "description": "Image generation, UI prototyping, and asset creation.",
+            "color": "#EF4444",
+            "toolCount": 4,
+            "tools": [
+                {
+                    "id": "midjourney",
+                    "name": "Midjourney",
+                    "logo": "/img/midjourney.webp",
+                    "logoFallback": "MJ",
+                    "pricing": "paid",
+                    "officialWebsite": "https://midjourney.com",
+                    "shortDescription": "Highest quality AI image generator.",
+                    "fullDescription": "The highest quality AI image generator. Generating assets, textures, and inspiration.",
+                    "bestFor": "High fidelity images",
+                    "categoryId": "design",
+                    "paidPlans": [
+                        {
+                            "name": "Basic",
+                            "priceUSD": 10,
+                            "billing": "monthly",
+                            "features": []
+                        }
+                    ]
+                },
+                {
+                    "id": "figma",
+                    "name": "Figma AI",
+                    "logo": "/img/Figma.png",
+                    "logoFallback": "FI",
+                    "pricing": "freemium",
+                    "officialWebsite": "https://figma.com",
+                    "shortDescription": "Industry standard UI tool with AI features.",
+                    "fullDescription": "Industry standard UI tool. New AI features generate layers, text, and images inside design files.",
+                    "bestFor": "UI/UX Design",
+                    "categoryId": "design",
+                    "paidPlans": [
+                        {
+                            "name": "Professional",
+                            "priceUSD": 12,
+                            "billing": "monthly",
+                            "features": []
+                        }
+                    ]
+                },
+                {
+                    "id": "galileo",
+                    "name": "Galileo AI",
+                    "logo": "/img/Galileo.webp",
+                    "logoFallback": "GA",
+                    "pricing": "paid",
+                    "officialWebsite": "https://usegalileo.ai",
+                    "shortDescription": "Text-to-UI generator exportable to Figma.",
+                    "fullDescription": "Text-to-UI. Generates high-fidelity mobile and web interface designs exportable to Figma.",
+                    "bestFor": "Mobile UI generation",
+                    "categoryId": "design",
+                    "paidPlans": [
+                        {
+                            "name": "Standard",
+                            "priceUSD": 19,
+                            "billing": "monthly",
+                            "features": []
+                        }
+                    ]
+                },
+                {
+                    "id": "adobe-firefly",
+                    "name": "Adobe Firefly",
+                    "logo": "/img/adobe.png",
+                    "logoFallback": "AF",
+                    "pricing": "freemium",
+                    "officialWebsite": "https://firefly.adobe.com",
+                    "shortDescription": "Generative fill and vector creation.",
+                    "fullDescription": "Generative fill and vector creation inside Photoshop and Illustrator. Safe for commercial use.",
+                    "bestFor": "Commercial safe assets",
+                    "categoryId": "design"
+                }
+            ],
+            "image": "/img/design.jpg"
+        },
+        {
+            "id": "content",
+            "name": "Content & Copywriting",
+            "icon": "pen-tool",
+            "description": "Writing blogs, ad copy, documentation, and SEO content.",
+            "color": "#6366F1",
+            "toolCount": 3,
+            "tools": [
+                {
+                    "id": "jasper",
+                    "name": "Jasper",
+                    "logo": "/img/Jasper.png",
+                    "logoFallback": "JA",
+                    "pricing": "paid",
+                    "officialWebsite": "https://jasper.ai",
+                    "shortDescription": "Enterprise-focused AI content platform.",
+                    "fullDescription": "Enterprise-focused AI content platform. Best for maintaining brand voice across teams.",
+                    "bestFor": "Enterprise marketing",
+                    "categoryId": "content",
+                    "paidPlans": [
+                        {
+                            "name": "Creator",
+                            "priceUSD": 39,
+                            "billing": "monthly",
+                            "features": []
+                        }
+                    ]
+                },
+                {
+                    "id": "copyai",
+                    "name": "Copy.ai",
+                    "logo": "/img/copy.webp",
+                    "logoFallback": "CO",
+                    "pricing": "freemium",
+                    "officialWebsite": "https://copy.ai",
+                    "shortDescription": "Great for social media posts/emails.",
+                    "fullDescription": "Great for social media posts, email sequences, and short-form copy.",
+                    "bestFor": "Social media copy",
+                    "categoryId": "content",
+                    "paidPlans": [
+                        {
+                            "name": "Pro",
+                            "priceUSD": 36,
+                            "billing": "monthly",
+                            "features": []
+                        }
+                    ]
+                },
+                {
+                    "id": "rytr",
+                    "name": "Rytr",
+                    "logo": "/img/Rytr.png",
+                    "logoFallback": "RY",
+                    "pricing": "freemium",
+                    "officialWebsite": "https://rytr.me",
+                    "shortDescription": "Budget-friendly content generator.",
+                    "fullDescription": "Budget-friendly content generator for blogs, emails, and ads.",
+                    "bestFor": "Budget content",
+                    "categoryId": "content",
+                    "paidPlans": [
+                        {
+                            "name": "Saver",
+                            "priceUSD": 9,
+                            "billing": "monthly",
+                            "features": []
+                        }
+                    ]
+                }
+            ],
+            "image": "/img/copywriting.jpg"
+        },
+        {
+            "id": "audio-video",
+            "name": "Audio & Video",
+            "icon": "video",
+            "description": "Voice generation, video creation, and editing.",
+            "color": "#14B8A6",
+            "toolCount": 3,
+            "tools": [
+                {
+                    "id": "runway",
+                    "name": "Runway Gen-3",
+                    "logo": "/img/runway.jpg",
+                    "logoFallback": "RU",
+                    "pricing": "paid",
+                    "officialWebsite": "https://runwayml.com",
+                    "shortDescription": "Cinematic AI video generation.",
+                    "fullDescription": "Cinematic AI video generation. Known for Gen-3 Alpha, high realism and motion control.",
+                    "bestFor": "High-end video generation",
+                    "categoryId": "audio-video",
+                    "paidPlans": [
+                        {
+                            "name": "Standard",
+                            "priceUSD": 12,
+                            "billing": "monthly",
+                            "features": []
+                        }
+                    ]
+                },
+                {
+                    "id": "sora",
+                    "name": "Sora (OpenAI)",
+                    "logo": "/img/Sora.webp",
+                    "logoFallback": "SO",
+                    "pricing": "freemium",
+                    "officialWebsite": "https://openai.com/sora",
+                    "shortDescription": "Hyper-realistic text-to-video (Limited access).",
+                    "fullDescription": "Hyper-realistic text-to-video. Capable of complex camera motions and physics consistency (Limited access).",
+                    "bestFor": "Future of video AI",
+                    "categoryId": "audio-video"
+                },
+                {
+                    "id": "nanobanana",
+                    "name": "Nano Banana",
+                    "logo": "/img/nanobanana.jpeg",
+                    "logoFallback": "NA",
+                    "pricing": "free",
+                    "officialWebsite": "https://example.com",
+                    "shortDescription": "AI Audio/Video Tool",
+                    "fullDescription": "AI Audio/Video Tool",
+                    "bestFor": "Content Creation",
+                    "categoryId": "audio-video"
+                }
+            ],
+            "image": "/img/audio.webp"
+        },
+        {
+            "id": "business-intelligence",
+            "name": "Business Intelligence",
+            "icon": "bar-chart",
+            "description": "Data analysis, visualization, and spreadsheet AI.",
+            "color": "#F97316",
+            "toolCount": 3,
+            "tools": [
+                {
+                    "id": "julius",
+                    "name": "Julius AI",
+                    "logo": "/img/julius.jpg",
+                    "logoFallback": "JU",
+                    "pricing": "freemium",
+                    "officialWebsite": "https://julius.ai",
+                    "shortDescription": "Chat with your data. Analyzes spreadsheets/databases.",
+                    "fullDescription": "Chat with your data. Upload spreadsheets or connect databases, and ask questions in English to get charts.",
+                    "bestFor": "Data analysis by chat",
+                    "categoryId": "business-intelligence",
+                    "paidPlans": [
+                        {
+                            "name": "Basic",
+                            "priceUSD": 20,
+                            "billing": "monthly",
+                            "features": []
+                        }
+                    ]
+                },
+                {
+                    "id": "powerbi",
+                    "name": "Power BI (Copilot)",
+                    "logo": "/img/powerBi.webp",
+                    "logoFallback": "PB",
+                    "pricing": "paid",
+                    "officialWebsite": "https://powerbi.microsoft.com",
+                    "shortDescription": "Microsoft's analytics tool now with Copilot.",
+                    "fullDescription": "Microsoft's standard analytics tool. Copilot allows generating reports and DAX formulas from text.",
+                    "bestFor": "Microsoft shops",
+                    "categoryId": "business-intelligence",
+                    "paidPlans": [
+                        {
+                            "name": "Pro",
+                            "priceUSD": 10,
+                            "billing": "monthly",
+                            "features": []
+                        }
+                    ]
+                },
+                {
+                    "id": "rows",
+                    "name": "Rows.com",
+                    "logo": "/img/rows.png",
+                    "logoFallback": "RO",
+                    "pricing": "freemium",
+                    "officialWebsite": "https://rows.com",
+                    "shortDescription": "Spreadsheet with built-in AI analyst.",
+                    "fullDescription": "Modern spreadsheet with a built-in AI analyst to classify, summarize, and enrich data.",
+                    "bestFor": "Modern Spreadsheets",
+                    "categoryId": "business-intelligence",
+                    "paidPlans": [
+                        {
+                            "name": "Plus",
+                            "priceUSD": 15,
+                            "billing": "monthly",
+                            "features": []
+                        }
+                    ]
+                }
+            ],
+            "image": "/img/BI.jpg"
+        },
+        {
+            "id": "automation",
+            "name": "Automation & Workflows",
+            "icon": "zap",
+            "description": "Connecting apps and automating repetitive tasks.",
+            "color": "#8B5CF6",
+            "toolCount": 3,
+            "tools": [
+                {
+                    "id": "zapier",
+                    "name": "Zapier Central",
+                    "logo": "/img/Zapier.png",
+                    "logoFallback": "ZA",
+                    "pricing": "freemium",
+                    "officialWebsite": "https://zapier.com",
+                    "shortDescription": "No-code automation giant. Now has AI agents.",
+                    "fullDescription": "No-code automation giant. Zapier Central allows teaching AI agents to execute tasks across 6000+ apps.",
+                    "bestFor": "Connecting Apps",
+                    "categoryId": "automation",
+                    "paidPlans": [
+                        {
+                            "name": "Starter",
+                            "priceUSD": 20,
+                            "billing": "monthly",
+                            "features": []
+                        }
+                    ]
+                },
+                {
+                    "id": "n8n",
+                    "name": "n8n",
+                    "logo": "/img/n8n.png",
+                    "logoFallback": "N8",
+                    "pricing": "free",
+                    "officialWebsite": "https://n8n.io",
+                    "shortDescription": "Open-source, self-hostable workflow automation.",
+                    "fullDescription": "Fair-code licensed, self-hostable workflow automation tool. Great for developers.",
+                    "bestFor": "Self-hosting",
+                    "categoryId": "automation",
+                    "paidPlans": [
+                        {
+                            "name": "Cloud",
+                            "priceUSD": 20,
+                            "billing": "monthly",
+                            "features": []
+                        }
+                    ]
+                },
+                {
+                    "id": "workato",
+                    "name": "Workato",
+                    "logo": "/img/Workato.png",
+                    "logoFallback": "WO",
+                    "pricing": "paid",
+                    "officialWebsite": "https://workato.com",
+                    "shortDescription": "Enterprise integration and automation platform.",
+                    "fullDescription": "Enterprise integration platform as a service (iPaaS). Connects apps and automates business workflows.",
+                    "bestFor": "Enterprise integration",
+                    "categoryId": "automation"
+                }
+            ],
+            "image": "/img/workflow.jpg"
+        },
+        {
+            "id": "code-generation",
+            "name": "Code Generation & No-Code",
+            "icon": "terminal",
+            "description": "Tools that build backend logic, internal tools, or full platforms visually.",
+            "color": "#3B82F6",
+            "toolCount": 4,
+            "tools": [
+                {
+                    "id": "replit",
+                    "name": "Replit AI",
+                    "logo": "/img/replit.png",
+                    "logoFallback": "RE",
+                    "pricing": "freemium",
+                    "officialWebsite": "https://replit.com",
+                    "shortDescription": "Cloud IDE with AI code repair.",
+                    "fullDescription": "Cloud IDE with AI code repair, autocomplete, and deployment. 'Ghostwriter' features.",
+                    "bestFor": "Rapid prototyping",
+                    "categoryId": "code-generation",
+                    "paidPlans": [
+                        {
+                            "name": "Core",
+                            "priceUSD": 20,
+                            "billing": "monthly",
+                            "features": []
+                        }
+                    ]
+                },
+                {
+                    "id": "bubble",
+                    "name": "Bubble",
+                    "logo": "/img/bubble.png",
+                    "logoFallback": "BU",
+                    "pricing": "freemium",
+                    "officialWebsite": "https://bubble.io",
+                    "shortDescription": "Full-stack no-code builder.",
+                    "fullDescription": "Full-stack no-code builder. Now integrates with AI to generate page layouts and logic.",
+                    "bestFor": "Complex Web Apps",
+                    "categoryId": "code-generation",
+                    "paidPlans": [
+                        {
+                            "name": "Starter",
+                            "priceUSD": 29,
+                            "billing": "monthly",
+                            "features": []
+                        }
+                    ]
+                },
+                {
+                    "id": "glide",
+                    "name": "Glide",
+                    "logo": "/img/glide.png",
+                    "logoFallback": "GL",
+                    "pricing": "freemium",
+                    "officialWebsite": "https://www.glideapps.com",
+                    "shortDescription": "Create apps from spreadsheets.",
+                    "fullDescription": "Create apps from spreadsheets. AI turns data into app layouts automatically.",
+                    "bestFor": "Internal Ops Apps",
+                    "categoryId": "code-generation",
+                    "paidPlans": [
+                        {
+                            "name": "Maker",
+                            "priceUSD": 25,
+                            "billing": "monthly",
+                            "features": []
+                        }
+                    ]
+                },
+                {
+                    "id": "supabase",
+                    "name": "Supabase",
+                    "logo": "/img/supabase.png",
+                    "logoFallback": "SB",
+                    "pricing": "freemium",
+                    "officialWebsite": "https://supabase.com",
+                    "shortDescription": "Open source Firebase alternative.",
+                    "fullDescription": "Open source Firebase alternative. AI Assistant helps write SQL and Postgres policies.",
+                    "bestFor": "Postgres Backend",
+                    "categoryId": "code-generation",
+                    "paidPlans": [
+                        {
+                            "name": "Pro",
+                            "priceUSD": 25,
+                            "billing": "monthly",
+                            "features": []
+                        }
+                    ]
+                }
+            ],
+            "image": "/img/noCode.webp"
+        }
+    ]
+}
