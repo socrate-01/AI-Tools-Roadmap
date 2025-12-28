@@ -1,10 +1,16 @@
 AI Tools Roadmap: live demo https://ai-tools-roadmap.vercel.app
 
-AI Tools Roadmap is an open-source platform built with Next.js that helps users discover the best AI tools for every category like coding tools, mobile apps, design, project management, marketing, productivity, and more.
+![Image 2025-12-28 at 10 09 AM](https://github.com/user-attachments/assets/0ba2d18b-3e9a-4f40-a765-ae0a120f692f)
+![Image 2025-12-28 at 10 10 AM](https://github.com/user-attachments/assets/85e11920-7d54-40c8-972e-1f9c54609f6a)
+![Image 2025-12-28 at 10 10 AM](https://github.com/user-attachments/assets/30c4811f-27b1-4816-b5ba-6c4681c11dab)
+![Image 2025-12-28 at 10 13 AM](https://github.com/user-attachments/assets/f58183ea-5ef3-4ad0-8d13-e8f9f653cbe5)
+
+
+AI Tools Roadmap is an open-source platform built with Next.js that helps users discover the best AI tools for every category like coding tools, mobile apps, design, project management, marketing, productivity and more.
 
 The goal is simple:
 
-Provide a clean, accessible, community-driven directory where anyone can explore AI tools by category, pricing (Free / Freemium / Premium), overview, and useful resources.
+Provide a clean, accessible, community-driven directory where anyone can explore AI tools by category, pricing (Free / Freemium / Premium), overview and useful resources.
 
 ---
 
@@ -72,6 +78,6 @@ Steps to contribute:
 
 License
 
-This project is released under the MIT License — free to use, modify, and distribute.
+This project is released under the MIT License — free to use, modify and distribute.
 
 
