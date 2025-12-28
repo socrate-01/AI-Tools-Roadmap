@@ -6,7 +6,7 @@ The goal is simple:
 
 Provide a clean, accessible, community-driven directory where anyone can explore AI tools by category, pricing (Free / Freemium / Premium), overview, and useful resources.
 
-⸻
+---
 
 Features
 	•	Browse AI tools by category
@@ -14,7 +14,7 @@ Features
 	•	Each tool includes: overview, pricing, links, resources
 	•	100% open-source — everyone can contribute
 
-⸻
+---
 
 Tech Stack
 	•	Next.js 14+ (App Router)
@@ -22,32 +22,40 @@ Tech Stack
 	•	TypeScript
 	•	Shadcn/UI
 
-⸻
+---
 
 Run Locally
 
 Clone the repo:
 
+```bash
 git clone https://github.com/socrate-01/AI-Tools-Roadmap.git
-
+```
 Install dependencies:
 
+```bash
 npm install
+```
 
 Start development:
 
+```bash
 npm run dev
+```
 
 Build:
 
+```bash
 npm run build
+```
 
 Start production:
 
+```bash
 npm start
+```
 
-
-⸻
+---
 
 Contributing
 
@@ -60,7 +68,7 @@ Steps to contribute:
 	3.	Make your changes
 	4.	Open a Pull Request
 
-⸻
+---
 
 License
 
