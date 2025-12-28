@@ -41,7 +41,7 @@ export function Roadmap({ data, searchQuery, onToolClick }: RoadmapProps) {
             nodes.push({
                 id: cat.id,
                 type: 'category',
-                position: cat.position,
+                position: cat.position || { x: 0, y: 0 },
                 data: {
                     label: cat.name,
                     icon: cat.icon,
@@ -64,8 +64,9 @@ export function Roadmap({ data, searchQuery, onToolClick }: RoadmapProps) {
                 const row = Math.floor(index / toolsPerRow);
                 const col = index % toolsPerRow;
 
-                const x = cat.position.x + startX + (col * xSpacing);
-                const y = cat.position.y + startY + (row * ySpacing);
+                const catPos = cat.position || { x: 0, y: 0 };
+                const x = catPos.x + startX + (col * xSpacing);
+                const y = catPos.y + startY + (row * ySpacing);
 
                 // Use JSON position if available (override)
                 const finalX = tool.position ? tool.position.x : x;

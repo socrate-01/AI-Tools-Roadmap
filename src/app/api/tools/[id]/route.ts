@@ -3,9 +3,9 @@ import data from '@/data/tools.json';
 
 export async function GET(
     request: Request,
-    { params }: { params: { id: string } }
+    { params }: { params: Promise<{ id: string }> }
 ) {
-    const id = params.id;
+    const { id } = await params;
     // @ts-ignore
     const allTools = data.categories.flatMap((c) => c.tools);
     // @ts-ignore

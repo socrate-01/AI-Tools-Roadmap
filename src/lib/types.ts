@@ -52,6 +52,8 @@ export interface Category {
     description: string;
     color: string;
     toolCount?: number; // Optional count
+    tools: Tool[];
+    position?: { x: number; y: number };
 }
 
 export interface ToolsData {

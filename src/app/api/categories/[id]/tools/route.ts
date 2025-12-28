@@ -3,10 +3,11 @@ import data from '@/data/tools.json';
 
 export async function GET(
     request: Request,
-    { params }: { params: { id: string } }
+    { params }: { params: Promise<{ id: string }> }
 ) {
+    const { id } = await params;
     // @ts-ignore
-    const category = data.categories.find(c => c.id === params.id);
+    const category = data.categories.find(c => c.id === id);
 
     if (category) {
         return NextResponse.json(category.tools);
